@@ -1,0 +1,27 @@
+{
+  "name": "tiktok-downloader-bot",
+  "version": "1.0.0",
+  "description": "TikTok Video Downloader Telegram Bot powered by Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": [
+    "tiktok",
+    "downloader",
+    "telegram",
+    "bot",
+    "cloudflare-workers"
+  ],
+  "author": "Cxan2006",
+  "license": "MIT"
+}
